@@ -1,0 +1,21 @@
+{
+  "name": "nocturnal-master-servers",
+  "version": "1.0.0",
+  "description": "Master validation servers for NOCTURNAL UNIVERSAL",
+  "main": "nocturnal_master_v1.js",
+  "scripts": {
+    "start-v1": "node nocturnal_master_v1.js",
+    "start-v2": "node nocturnal_master_v2.js",
+    "start-both": "concurrently \"npm run start-v1\" \"npm run start-v2\""
+  },
+  "keywords": ["nocturnal", "nsfw", "master", "server"],
+  "author": "nocturnalpleasure",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
