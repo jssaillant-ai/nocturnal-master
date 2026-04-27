@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nocturnalpleasure.github.io/nocturnal-master/sitemap.xml
